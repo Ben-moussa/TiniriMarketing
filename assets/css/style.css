@@ -402,7 +402,9 @@ body.nav-active { overflow: hidden; }
   font-size: var(--fs-5);
   color: var(--white);
   margin-block: 24px 36px;
+  text-align: justify;
 }
+
 
 .btn-wrapper {
   display: flex;
@@ -628,6 +630,7 @@ body.nav-active { overflow: hidden; }
  .list{
   display: grid;
   justify-items: start;
+  text-align: start;
 }
 
 /*-----------------------------------*\
@@ -975,7 +978,7 @@ body.nav-active { overflow: hidden; }
    * STATS
    */
 
-  .stats-card { grid-template-columns: repeat(3, 1fr); }
+  .stats-card { grid-template-columns: repeat(2, 1fr); }
 
 
 
@@ -1119,4 +1122,6 @@ body.nav-active { overflow: hidden; }
   width: 622px;
   height: 413px;
 }
-
+.my-3{
+  border-radius: 30px;
+}
